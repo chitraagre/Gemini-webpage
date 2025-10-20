@@ -19,3 +19,6 @@ JavaScript (ES6) – Interactivity and transitions
 
 💡 Purpose:
 To showcase creativity and front-end web design skills through a static, informative, and visually engaging webpage about the Gemini constellation.
+
+
+
