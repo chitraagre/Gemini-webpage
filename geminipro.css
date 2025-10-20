@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+   font-family: "Roboto", sans-serif;
+}
+html,body{
+  width: 100%;
+  height: 100%;
+  background-color: #1B1C1D;
+  color: white;
+}
+.navbar{
+  width:100%;
+  /* background-color: blueviolet;  */
+  height: 80px;
+  display: flex;
+  flex-direction:row;
+  justify-content: space-between;
+  padding: 0 80px;
+}
+.left-nav{
+  /* background-color: rgb(216, 133, 16); */
+  display: flex;
+  flex-direction: row;
+  /*row wise main axis*/
+  justify-content: flex-start;
+  align-items: center;
+  width: 50%;
+  height: 100%;
+}
+.left-nav h1{
+  font-size: 24px;
+  font-weight: 300;
+}
+.right-nav{
+  /* background-color: aqua; */
+  width: 50%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+
+  gap: 30px;
+}
+.right-nav button{
+  padding: 10px 20px;
+  font-size: 16px;
+  color: white;
+  background-color: #4C4E51;
+  border: none;
+}
+.right-nav button i{
+  color:#d68080;
+}
+.profile{
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  background-color: #AB47BC; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.homepage{
+  /* background-color: brown; */
+  width: 100%;
+  height: calc(100% - 80px);
+  padding: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+.homepage h1{
+  padding-bottom:100px ;
+
+  background: linear-gradient(90deg,#3180FC, #d68080);
+  -webkit-background-clip: text;  /* For Safari/Chrome */
+  -webkit-text-fill-color: transparent; /* Makes the text transparent so background shows */
+  background-clip: text; /* Standard property */
+  color: transparent; /* Fallback */
+}
+.input-div{
+  /* background-color: lightblue; */
+  height:fit-content;
+  width: 40%;
+  padding: 10px;
+  position: absolute;
+  bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.input-div p {
+  font-size: 14px;
+}
+.main-input{
+  width: 100%;
+  /* background-color: #d68080; */
+  position: relative;
+}
+.main-input input{
+  width: 100%;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  color: white;
+  background-color: transparent;
+  border: 1px solid #4C4E51;;
+}
+.main-input input:focus{
+  outline:none;
+}
+.main-input i {
+background-color: black;
+color: white;
+border-radius: 50%;
+font-size: 32px;
+position: absolute;
+right: 10px;
+top: 4px;
+
+/* Or this is hover because to move the curcer as a pointer both way we can write here */
+/* &&:hover{
+  cursor: pointer;
+}  */
+}
+ .main-input i:hover{
+  cursor: pointer;
+} 
